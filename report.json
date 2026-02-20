@@ -1,0 +1,27 @@
+{
+    "target": "http://testphp.vulnweb.com",
+    "pages_scanned": 10,
+    "forms_found": 9,
+    "xss_vulnerabilities": [
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/guestbook.php",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/userinfo.php",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/userinfo.php",
+        "http://testphp.vulnweb.com/search.php?test=query"
+    ],
+    "sqli_vulnerabilities": [
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/guestbook.php",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/userinfo.php",
+        "http://testphp.vulnweb.com/search.php?test=query",
+        "http://testphp.vulnweb.com/userinfo.php",
+        "http://testphp.vulnweb.com/search.php?test=query"
+    ]
+}
